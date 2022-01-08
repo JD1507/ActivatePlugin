@@ -11,7 +11,7 @@ pipeline {
         snActivatePlugin(
           url: "${DEVENV}",
           credentialsId: "${CREDENTIALS}",
-          pluginId: 'sn_role_builder')
+          pluginId: 'com.glide.awa')
       }
     }
   }
